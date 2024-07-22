@@ -1,0 +1,8 @@
+# Objection: Print a random greeting. Easy.
+
+import random
+greetings = ["hello","hi","hey","hola", "bonjour","salut","ciao","guten tag"]
+print(f"{greetings[random.randint(0,7)]}")
+# or you can: 
+index = random.randint(0,7)
+print(greetings[index])
